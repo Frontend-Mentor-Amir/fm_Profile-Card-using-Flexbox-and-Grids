@@ -1,0 +1,86 @@
+body {
+  background: hsl(185, 75%, 39%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 1440px;
+}
+
+.userCard {
+  height: auto;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lowerCard {
+  border-top: #f3f3f3 3px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+}
+
+.cardSection {
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+  align-self: center;
+}
+
+.number {
+  font-weight: 700;
+  color: black;
+}
+.upperCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 59%);
+  gap: 7px;
+  padding: 20px;
+  background-image: url("/images/bg-pattern-card.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 25%;
+  border-radius: 20px;
+}
+.info {
+  display: flex;
+  gap: 7px;
+}
+
+.name {
+  color: black;
+  font-weight: 700;
+}
+
+.pfp {
+  border-radius: 100%;
+  border: 7px white solid;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* * {
+  outline: red solid;
+} */
